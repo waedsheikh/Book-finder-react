@@ -4,9 +4,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Deploying to GitHub Pages
 
-The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the app and deploys it to GitHub Pages whenever changes are pushed to the `main` or `master` branch. The Vite configuration uses relative asset paths so the app works at the repository's Pages URL.
+Run `npm run deploy` to build the app and publish the `dist` folder to the `gh-pages` branch. The Vite configuration uses relative asset paths so the app works at the repository's Pages URL.
 
-After pushing the project to GitHub, open **Settings > Pages** for the repository and set the build and deployment source to **GitHub Actions**. You can also run the workflow manually from the repository's **Actions** tab.
+In the repository's **Settings > Pages**, select **Deploy from a branch**, then choose the `gh-pages` branch and the `/ (root)` folder. The site will be available at `https://waedsheikh.github.io/Book-finder-react/`.
 
 Currently, two official plugins are available:
 
